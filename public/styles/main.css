@@ -1,0 +1,116 @@
+body{
+    background-color: #fda403;
+}
+.navbar-main{
+    background-color: #8a1253;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 5px solid #e8751a;
+    border-style: double;
+}
+
+.nav-icon-img{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.head_title{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.work-today-text{
+    background-color: #c51350;
+    position: relative;
+    align-items: center;
+    margin: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.copy_right_container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 35px;
+}
+
+.copy_right{
+    border-radius: 10px;
+    color: black;
+    padding:5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: small;
+}
+
+.input_box{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+.form-control{
+    border-top-left-radius:50px;
+    border-bottom-left-radius: 50px;
+    margin-right: 2px;
+}
+
+.btn-input{
+    margin: 0;
+    margin-left: 4px;
+    border-radius: 50%;
+    border: 4px solid white;
+    background-color: white;
+    padding-bottom: 5px;
+}
+.btn-input:hover{
+    border-radius: 50%;
+    border:4px solid white;
+    background-color: antiquewhite;
+    transition: ease-in-out;
+}
+
+.content{
+    background-color: white;
+    width: 400px;
+    height: 100%;
+    padding-left: 30px ;
+    padding-top: 13px;
+    padding-right: 10px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    word-wrap: break-word;
+    font-size: medium;
+}
+
+.task_box{
+    width: 100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    
+}
+
+.checkbox_div{
+    border-radius: 50px;
+    margin-right: 2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+.check_box{
+    height: 30px;
+}

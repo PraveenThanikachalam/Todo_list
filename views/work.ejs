@@ -1,0 +1,26 @@
+<%- include("partials/header.ejs") %>
+<div class="head_title">
+    <h1 class="work-today-text">Work</h1>
+</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <form action="/work" method="POST">
+        <div class="input_box">
+            <div class="input-group  w-50 ">
+                <input type="input_text" name="input_text" class="form-control " placeholder="Type your task here" aria-label="Task" aria-describedby="button-addon2">
+                <button class="btn btn-input btn-close-white " type="submit" id="button-addon2">+</button>    
+            </div>
+        </div>
+    </form>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
+<%- include("partials/task-box.ejs") %>
+<%- include("partials/footer.ejs") %>
