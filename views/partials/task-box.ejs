@@ -8,7 +8,7 @@
 </head>
 <body>
     <% var m = 50 %>
-    <% if(locals.array===1 || locals.array_len=== 0){ %>
+    <% if( locals.array_len=== 1){ %>
         <div class="input-group task_box mb-3 w-100">
             <div class="input-group-text checkbox_div ">
                 <input class="check_box form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
@@ -18,7 +18,7 @@
             </div>
         </div>   
     <% } else{%>
-        <% for(var i=0;i<locals.array_len;i++){ %>
+        <% for(var i=1;i<locals.array_len;i++){ %>
             <div class="input-group mb-3 mt-1 d-flex   w-100 justify-content-center " >
                 <div class="input-group-text checkbox_div ">
                     <input class="check_box form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
